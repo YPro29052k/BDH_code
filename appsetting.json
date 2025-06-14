@@ -1,44 +1,4 @@
 {
-    "MySQL_Connection": {
-        "Connection_fg": "Server=172.22.61.11;Database=db_FG_binhdinhfeedmill;User ID=admin;Password=Cpvn!!000000;",
-        "Connection_product": "Server=172.22.61.11;Database=db_production_binhdinhfeedmill;User ID=admin;Password=Cpvn!!000000;",
-        "Connection_scales": "Server=172.22.61.11;Database=db_scales_binhdinhfeedmill;User ID=admin;Password=Cpvn!!000000;",
-        "Connection_publish": "Server=103.97.126.29;Database=mglkpxkd_bdhsmartfeedmill;User ID = mglkpxkd_bdhsmartfeedmill;Password=Cpvn!!000000;"
-    },
-
-    "API_Insert_Stock_Winfeed": {
-        "Url_winfeed": "https://webservice.cp.com.vn/PowerApp/api/get-list-object-oracle-sms",
-        "Url_running_no": "https://webservice.cp.com.vn/PowerApp/api/get-list-oracle-sms",
-        "User": "FEED",
-        "Password": "sK5Z3Yp3TzDyGzSfuZOxmA==",
-        "DataBaseName": "0x020000006612B4349065B129A7CBE04837A9B6FDA0A60D717F3218B79F26BD44BAF5C3D342F0DEB16F86212F4155BAB9C5F7CB0A",
-        "StoreProcedureName_insert_packing": "SP_API_HD_INS_FM_PACKING",
-        "StoreProcedureName_insert_package": "SP_API_HD_INS_FM_PACKAGE_NEW",
-        "StoreProcedureName_reset_package": "SP_API_HD_UP_RUN_PACKAGING_NEW",
-        "StoreProcedureName_get_running_no": "SP_API_HD_GET_RUN_PACKING"
-    },
-
-    "API_Get_PKSL_Winfeed": {
-        "Url_winfeed": "https://webservice.cp.com.vn/getdatafeed/api/get-list-oracle-sms",
-        "User": "MISVN",
-        "Password": "sK5Z3Yp3TzDyGzSfuZOxmA==",
-        "DataBaseName": "0x02000000F043D130044553A7FCA63E000CE0649A2017734442F0E33B53B74673FC76208AC529C1D58D82AE8B57B99C323BEF2601",
-        "StoreProcedureName": "SP_API_GET_PICKING_LIST"
-    },
-
-    "API_Get_Issue_Winfeed": {
-        "Url_winfeed": "https://webservice.cp.com.vn/getdatafeed/api/get-list-oracle-sms",
-        "User": "MISVN",
-        "Password": "sK5Z3Yp3TzDyGzSfuZOxmA==",
-        "DataBaseName": "0x02000000F043D130044553A7FCA63E000CE0649A2017734442F0E33B53B74673FC76208AC529C1D58D82AE8B57B99C323BEF2601",
-        "StoreProcedureName": "SP_API_GET_ISSUE_LIST_NEW"
-    },
-
-    "API_Get_QR_TaT": {
-        "Url_winfeed": "http://172.22.68.50:8180/APITAT/api/pack/informationInk",
-        "User": "guest",
-        "Password": "guest"
-    }
 
 }
 
