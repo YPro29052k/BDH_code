@@ -5,9 +5,6 @@
         "Connection_scales": "Server=172.22.61.11;Database=db_scales_binhdinhfeedmill;User ID=admin;Password=Cpvn!!000000;",
         "Connection_publish": "Server=103.97.126.29;Database=mglkpxkd_bdhsmartfeedmill;User ID = mglkpxkd_bdhsmartfeedmill;Password=Cpvn!!000000;"
 
-        //"Connection_fg": "Server=localhost;Database=db_FG_binhdinhfeedmill;User ID=root",
-        //"Connection_product": "Server=localhost;Database=db_PRODUCTION_binhdinhfeedmill;User ID=root",
-        //"Connection_scales": "Server=localhost;Database=db_scales_binhdinhfeedmill;User ID=root"
     },
 
     "API_Insert_Stock_Winfeed": {
